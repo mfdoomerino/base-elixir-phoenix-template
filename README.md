@@ -5,3 +5,7 @@ Template for an app with the ff dependencies:
 - LiveView
 
 All contained in a docker container
+
+# Initialization
+- docker-compose build
+- docker-compoe up
