@@ -12,7 +12,10 @@ Template for an app with the ff dependencies:
 All contained in a docker container
 
 # Initialization
+- delete pgdata folder
 - docker-compose build
+- docker-compose run --rm phoenix mix deps.get
+- docker-compose run --rm phoenix mix ecto.create
 - docker-compose up
 
 # Key files and changes from scratch
